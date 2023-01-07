@@ -83,7 +83,9 @@ if __name__ == "__main__":
     with open("data/data.pkl", "rb") as file:
         data = pickle.load(file)
     init_date = pd.to_datetime("20140101", format="%Y%m%d")
-    fin_date = pd.to_datetime("20161231", format="%Y%m%d")
+    fin_date = pd.to_datetime("20160531", format="%Y%m%d")
+    # 20160601 - 20161231 is left out for testing
+    
     od, date_count = load_data(data, init_date, fin_date)
     sel_ret = load_market_data('data/ff5_daily_clean.csv')
     documents, ky_ret, ky_dates = prepare_data(data, sel_ret, date_count)
