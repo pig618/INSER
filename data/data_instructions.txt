@@ -1,0 +1,1 @@
+If you want to replicate the paper mentioned above, please purchase the stock returns data from the Center for Research in Security Prices, LLC (CRSP) database (https://www.crsp.org/), and purchased the news data from Dow Jones ``Data, News and Analytics (DNA)'' news database (https://network-effects.dowjones.com/). Save the data here and run compute.ipynb.
