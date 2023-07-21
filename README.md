@@ -17,7 +17,7 @@ Any code that uses this repository must state that it is obtained from this repo
   publisher={Taylor \& Francis}
 }
 
-The paper mentioned above is open-source and has full text available here
+The paper mentioned above is open-source and has full text available here 
 https://www.tandfonline.com/doi/pdf/10.1080/26941899.2023.2187895
 
 For more related papers, please see the google scholar link:
